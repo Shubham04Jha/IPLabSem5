@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f1f1f1;
+}
+.navbar{
+    background-image: url('Assets/navbarbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#profile-pic{
+    border-radius: 50%;
+}
+.contactme {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Space elements evenly with space on the outer sides */
+    height: 60px; /* Adjust height for better visibility, replace with px or vh as needed */
+    font-size: 25px; /* Set font size in px for better control, adjust based on design */
+    padding: 0 20px; /* Add horizontal padding for spacing */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-top: 1px solid #ddd; /* Optional: border for separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+.contactme a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark color for text links */
+    font-weight: bold; /* Make links stand out */
+    margin: 0 15px; /* Space out items horizontally */
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.contactme a:hover {
+    color: #007bff; /* Change color on hover for visual feedback */
+}
+
+
+
+.aboutme {
+    width: 100%; /* Adjust width based on your design */
+    /* max-width: 1600px; Max width for larger screens */
+    margin: 20px 0; /* Center the section horizontally */
+    margin-top: 0;
+    padding: 20px; /* Padding inside the container */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    line-height: 1.6; /* Improve readability by spacing lines */
+}
+
+.aboutme h2 {
+    font-size: 28px; /* Size of the heading */
+    color: #333; /* Dark color for readability */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.aboutme p {
+    font-size: 25px; /* Font size for the paragraph */
+    color: #555; /* Slightly lighter color for text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+.skills {
+    width: 100%; /* Adjust width as needed */
+    margin: 20 0; /* Center the section horizontally */
+    padding: 20px; /* Padding inside the container */
+    background-color: #fff; /* Background color for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.skills h2 {
+    font-size: 32px; /* Size of the main heading */
+    color: #333; /* Dark color for readability */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.skills h3 {
+    font-size: 28px; /* Size of subheadings */
+    color: #555; /* Slightly lighter color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    margin-bottom: 10px; /* Space below subheadings */
+}
+
+.skills ul {
+    list-style-type: disc; /* Bullet points for list items */
+    padding-left: 20px; /* Indentation for the list */
+}
+
+.skills li {
+    font-size: 22px; /* Font size for list items */
+    color: #333; /* Dark color for list text */
+    margin-bottom: 10px; /* Space below each list item */
+}
+
+.skills li:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last item */
+}
+
+
+
+.projectSection {
+    width: 100%; /* Adjust width as needed */
+    margin: 20px 0; /* Center the section horizontally and add vertical margin */
+    padding: 20px; /* Padding inside the container */
+    background-color: #fff; /* Background color for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.projectSection h2 {
+    font-size: 32px; /* Size of the main heading */
+    color: #333; /* Dark color for readability */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.projectSection .project h3 {
+    font-size: 28px; /* Size of subheadings */
+    color: #555; /* Slightly lighter color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    margin-bottom: 10px; /* Space below subheadings */
+}
+
+.projectSection ul {
+    list-style-type: disc; /* Bullet points for list items */
+    padding-left: 20px; /* Indentation for the list */
+    margin: 0; /* Remove default margin for the list */
+}
+
+.projectSection li {
+    font-size: 22px; /* Font size for list items */
+    color: #333; /* Dark color for list text */
+    margin-bottom: 10px; /* Space below each list item */
+}
+
+.projectSection li:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last item */
+}
+
+/* Optional: Style for buttons */
+.projectSection button {
+    margin: 10px 5px; /* Spacing around buttons */
+    padding: 10px 20px; /* Padding inside buttons */
+    font-size: 16px; /* Font size for button text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.projectSection button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+
+
+
+
+.educationSection {
+    margin-top: 3vh;
+    width: 90%;
+    margin:0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100vh;
+}
+
+.educationSection h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    color: #333;
+}
+
+.educationSectionTable {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1; /* Light background color */
+    color: #333; /* Dark text color */
+    /*position: fixed; /* Fixed position at the bottom */
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #ddd; /* Optional: add a top border */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}
