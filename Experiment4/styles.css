@@ -1,0 +1,126 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset Styles */
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Textarea Styles */
+textarea {
+    resize: vertical;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Error Message Styles */
+#dateError {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Button Styles */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+input[type="reset"] {
+    background-color: #6c757d;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.8;
+}
+
+/* Receipt Styles */
+#receipt {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#receipt h2 {
+    color: #333;
+}
+
+#receipt p {
+    font-size: 1em;
+    color: #555;
+}
+
+#receipt img {
+    border-radius: 5px;
+}
+
+#receipt h2,
+#receipt p {
+    margin-bottom: 15px;
+}
+
+#receipt .student-details {
+    text-align: left;
+    margin-top: 20px;
+}
