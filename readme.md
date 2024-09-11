@@ -4,3 +4,7 @@ Portfolio website. (basic html and css only).
 Need to manage the table width properly.
 
 done with experiment 1.
+
+done with experiment 2.
+
+with experiment 3.

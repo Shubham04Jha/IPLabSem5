@@ -1,0 +1,133 @@
+/* External CSS for Company Profile Page */
+
+/* Importing Web Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* Applying Font Styles Globally */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa; /* Light teal background */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Basic Reset for Box Sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Styling the Header */
+header {
+    background-color: #0a3d62; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 0 0; 
+}
+
+/* Styling the Company Name */
+.company-name {
+    margin: 10px 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+/*Sticking the logo class*/
+.logo{
+    margin-top: 10px;
+    position: fixed;
+    top: 0;          
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%; 
+}
+/* Styling the Logo */
+.logo img {
+    max-width: 150px;
+    border-radius: 15%;
+}
+
+/* Styling Company Details Section */
+.company-details {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-details h2 {
+    color: #0a3d62; /* Dark blue */
+}
+
+/* Styling the Services Section */
+.services {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling List Items */
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    padding: 8px;
+    margin: 4px 0;
+    background-color: #38ada9; /* Teal */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Styling Contact Information */
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Styling Footer */
+footer {
+    background-color: #0a3d62; /* Dark blue */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+}
+
+footer a {
+    color: #38ada9; /* Teal */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo Class and Pseudo Element Example */
+.back-to-top::before {
+    content: '↑ ';  /* Upward arrow symbol */
+}
+
+.back-to-top:hover {
+    color: #e0f7fa;
+    background-color: #38ada9; /* Teal */
+    padding: 5px;
+    border-radius: 5px;
+}
